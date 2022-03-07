@@ -4,7 +4,7 @@ class Bank:
     typeOfAccount = ""
     balance = 0
 
-    def _init_(a,accountNo,name,typeOfAccount,balance):
+    def __init__(a,accountNo,name,typeOfAccount,balance):
        a.accountNo = accountNo
        a.name = name
        a.typeOfAccount = typeOfAccount
